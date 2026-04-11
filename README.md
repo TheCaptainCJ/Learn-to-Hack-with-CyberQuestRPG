@@ -1,105 +1,163 @@
+🛡️ CyberQuest Academy
+
 📘 Overview
 
-CyberQuest Academy is a Python-based interactive cybersecurity RPG designed to teach:
+CyberQuest Academy is an all-in-one cybersecurity and Python learning platform built as an interactive RPG in Python.
 
-🐧 Linux fundamentals
-🌐 Networking & protocols
-🔐 Cryptography
-🕸️ Web hacking
-⚡ Exploitation
-🛡️ Defensive security
+It combines hands-on cybersecurity training with built-in Python learning, allowing users to practice real skills through missions, labs, and a live coding sandbox — all inside one application.
 
-Built using Python’s standard library (Tkinter), it provides a gamified learning experience from beginner to advanced levels.
+Run it with:
+python cyberquest_academy.py
+
+🚀 What Makes It Different
+
+CyberQuest isn’t just a tutorial - it’s a hands-on learning game.
+Learn by doing, not just reading
+Progress through quests and skill trees
+Practice real commands and scenarios
+Write and run Python code inside the app
+
+🧠 Features
+
+🎮 Core System
+
+XP progression and rank system (12 ranks)
+15 achievements to unlock
+Persistent save system (your progress is محفوظ)
+Full reset option with confirmation
+Bonus XP rewards with claim system
+
+🌳 Skill Trees & Content
+11 skill trees covering cybersecurity domains
+32+ security-focused quests
+Linux, Networking, Web Security, Exploitation, Defense, Governance, and more
+
+🐍 Python Learning (Built-In)
+8 Python quests fully integrated
+Dedicated Python tab with progress tracking
+Built-in code sandbox:
+Write Python code
+Run it instantly
+See output in real time
+
+💡 Learning Support
+Hints system for every quest
+“Why This Matters” section showing real-world career value
+Step-by-step missions with practical commands
+
+📊 Exams & Progress
+5 exams to test your knowledge
+Track scores and improvement over time
+
+💼 Careers Tab
+
+Explore real cybersecurity career paths:
+
+SOC Analyst
+Pentester
+Incident Responder
+Security Engineer
+Threat Hunter
+Red Team Operator
+GRC Analyst
+AppSec Engineer
+
+Each includes:
+
+Salary ranges
+Required skills
+Recommended certifications
+Related skill trees
+
+🧠 Governance & Standards
+NIST framework concepts
+CVE awareness and vulnerability context
+CIA Triad is integrated across quests
+
+🌐 Expanded Networking Coverage
+
+Includes practical learning for:
+DHCP
+ICMP
+SNMP
+LDAP
+SMB
+RDP
+
+🔐 Special Questline: OpenClaw Security
+
+A full scenario-based chain including:
+
+Installation
+Security hardening (CVE-focused)
+Red team audit of an AI agent system
 
 ⚙️ Requirements
 Python 3.8 or higher
-OS: Windows, Linux, or macOS
-No external libraries required
-🐍 How to Download & Install Python
-🔗 Official Download
+Works on:
+Windows
+Linux
+macOS
 
-Get Python here:
+No external libraries required (standard library only)
+
+🐍 Install Python
+
+Download Python here:
 👉 https://www.python.org/downloads/
 
-🪟 Windows Install Steps
-Download Python installer
+Windows Setup
 Run installer
-✅ IMPORTANT: Check "Add Python to PATH"
-Click Install Now
-✅ Verify Installation
+Check “Add Python to PATH”
+Click Install
 
-Open Command Prompt or PowerShell:
+Verify:
 
 python --version
-▶️ How to Run the Program
-Download or clone this project
-Navigate to the folder:
-cd path\to\folder
-Run:
+
+▶️ How to Run
+cd path/to/project
 python cyberquest_academy.py
-🧠 Recommended: Practice in a Virtual Lab
 
-For cybersecurity training, it’s best to run this in a virtual machine using a Linux distro like Parrot Security OS.
+🧪 Recommended Lab Environment
 
-🐦 Parrot Security OS (Practice Environment)
-🔗 Download ISO: https://www.parrotsec.org/download/
+For the best experience, run CyberQuest inside a virtual lab.
 
-Look for:
+🐦 Parrot Security OS (Recommended)
 
-Parrot Security Edition (Full ISO)
-Hypervisors (Virtual Machine Software)
+Download ISO:
+👉 https://www.parrotsec.org/download/
 
-Use one of the following:
+💻 Hypervisors
+VMware
 
-1. VMware
-VMware Workstation Player (Free for personal use)
 👉 https://www.vmware.com/products/workstation-player.html
-2. Windows Hyper-V
-Microsoft Hyper-V
+
+Windows Hyper-V
+
 👉 https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/
 
-✔ Built into Windows Pro/Enterprise
+VirtualBox
 
-3. VirtualBox
-Oracle VM VirtualBox
 👉 https://www.virtualbox.org/wiki/Downloads
 
-✔ Free and beginner-friendly
-
-🛠️ How to Set Up Parrot OS VM
-
-Basic Steps:
-Install your hypervisor (VMware / Hyper-V / VirtualBox)
-Create a new Virtual Machine
-Select the Parrot OS ISO
-Recommended settings:
+🛠️ Basic VM Setup
 RAM: 4GB+
 CPU: 2 cores
 Storage: 40GB+
-Start VM and install Parrot OS
 
-🚀 Running CyberQuest Inside Parrot OS
+Install Parrot OS → install Python → run CyberQuest inside the VM.
 
-Once inside Parrot:
+🎯 Who This Is For
+Beginners learning cybersecurity
+IT/helpdesk professionals moving into security
+Anyone who learns better by doing instead of reading
 
-sudo apt update
-sudo apt install python3 -y
-
-Once in the directory it's installed, or in:
-
-cd /Folder/cyberquest.py
-
-Run the program:
-
-python3 cyberquest_academy.py
-
-🎮 Features
-📊 XP and rank progression system
-🧩 Real-world cybersecurity missions
-💾 Save system for progress tracking
-🧠 Skill trees (Linux, Networking, Web, Crypto, etc.)
-🧪 Hands-on commands and labs
 ⚠️ Disclaimer
-
-This project is for educational purposes only.
+For educational use only.
 Only practice on systems you own or have permission to test.
+
+🧭 Future Plans
+More quests and advanced scenarios
+Expanded Python challenges
+Deeper red/blue team simulations
