@@ -1,4 +1,4 @@
-🛡️ CyberQuest Academy
+🛡️ CyberQuest Academy - Level up your Cyber Skills
 
 📘 Overview
 
