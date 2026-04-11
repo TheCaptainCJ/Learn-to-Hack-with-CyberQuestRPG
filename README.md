@@ -1,3 +1,14 @@
+About this project: 
+
+Developed Learn-to-Hack-with-CyberQuestRPG, a Python-based interactive cybersecurity and programming training application. This was a large project that I started while still learning Python, which helped me build both my coding and problem-solving skills throughout the process.
+
+I used Claude.ai as a development assistant to troubleshoot errors, ask questions, and learn concepts as I went. I also used it to merge a Python learning module into the cybersecurity course, creating a more complete, hands-on learning experience.
+
+The application includes quest-based progression, skill trees, a built-in Python sandbox, and coverage of real-world cybersecurity topics like Linux, networking, and security fundamentals. Some UI elements include icons, which may occasionally display minor character inconsistencies.
+
+This project helped me gain experience building and debugging a full application while actively learning new technical skills.
+
+
 🛡️ CyberQuest Academy - Level up your Cyber Skills
 
 📘 Overview
