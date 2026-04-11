@@ -42,33 +42,32 @@ python cyberquest_academy.py
 For cybersecurity training, it’s best to run this in a virtual machine using a Linux distro like Parrot Security OS.
 
 🐦 Parrot Security OS (Practice Environment)
-🔗 Download ISO
-
-👉 https://www.parrotsec.org/download/
+🔗 Download ISO: https://www.parrotsec.org/download/
 
 Look for:
 
 Parrot Security Edition (Full ISO)
-💻 Hypervisors (Virtual Machine Software)
+Hypervisors (Virtual Machine Software)
 
 Use one of the following:
 
-1. 🖥️ VMware
+1. VMware
 VMware Workstation Player (Free for personal use)
 👉 https://www.vmware.com/products/workstation-player.html
-2. 🪟 Windows Hyper-V
+2. Windows Hyper-V
 Microsoft Hyper-V
 👉 https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/
 
 ✔ Built into Windows Pro/Enterprise
 
-3. 📦 VirtualBox
+3. VirtualBox
 Oracle VM VirtualBox
 👉 https://www.virtualbox.org/wiki/Downloads
 
 ✔ Free and beginner-friendly
 
 🛠️ How to Set Up Parrot OS VM
+
 Basic Steps:
 Install your hypervisor (VMware / Hyper-V / VirtualBox)
 Create a new Virtual Machine
@@ -78,6 +77,7 @@ RAM: 4GB+
 CPU: 2 cores
 Storage: 40GB+
 Start VM and install Parrot OS
+
 🚀 Running CyberQuest Inside Parrot OS
 
 Once inside Parrot:
@@ -85,9 +85,14 @@ Once inside Parrot:
 sudo apt update
 sudo apt install python3 -y
 
+Once in the directory it's installed, or in:
+
+cd /Folder/cyberquest.py
+
 Run the program:
 
 python3 cyberquest_academy.py
+
 🎮 Features
 📊 XP and rank progression system
 🧩 Real-world cybersecurity missions
