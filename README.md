@@ -1,64 +1,51 @@
-About this project: 
+🕶️ CyberQuest Academy – Learn to Hack (RPG Style)
 
-Developed Learn-to-Hack-with-CyberQuestRPG, a Python-based interactive cybersecurity and programming training application. This was a large project that I started while still learning Python, which helped me build both my coding and problem-solving skills throughout the process.
+📌 About This Project
 
-I used Claude.ai as a development assistant to troubleshoot errors, ask questions, and learn concepts as I went. I also used it to merge a Python learning module into the cybersecurity course, creating a more complete, hands-on learning experience.
+CyberQuest Academy is a Python-based interactive cybersecurity and programming training platform built as a hacker-themed RPG.
 
-The application includes quest-based progression, skill trees, a built-in Python sandbox, and coverage of real-world cybersecurity topics like Linux, networking, and security fundamentals. Some UI elements include icons, which may occasionally display minor character inconsistencies.
+- Developed while learning Python to strengthen coding and problem-solving skills
+- Built with AI-assisted learning (Claude) for troubleshooting and concept support
+- Combines cybersecurity training with integrated Python learning
+- Focused on hands-on, real-world skill development through gameplay
 
-This project helped me gain experience building and debugging a full application while actively learning new technical skills.
-
-
-🛡️ CyberQuest Academy - Level up your Cyber Skills
-
-📘 Overview
-
-CyberQuest Academy is an all-in-one cybersecurity and Python learning platform built as an interactive RPG.
-
-It combines hands-on cybersecurity training with built-in Python learning, allowing users to practice real skills through missions, labs, and a live coding sandbox, all inside one application.
-
-Run it with: python3 cyberquest_academy.py
-
-🚀 What Makes It Different
-
-CyberQuest isn’t just a tutorial - it’s a hands-on learning game.
+🎮 Overview
+CyberQuest blends cybersecurity training and Python learning into one interactive experience.
 - Learn by doing, not just reading
 - Progress through quests and skill trees
 - Practice real commands and scenarios
 - Write and run Python code inside the app
 
-🧠 Features & Core Systems 🎮
-- XP progression and rank system (12 ranks)
-- 15 achievements to unlock
-- Persistent save system (your progress is محفوظ)
-- Full reset option with confirmation
-- Bonus XP rewards with a claim system
+Install/Run on Terminal:
+- pip install customtkinter
+- python cyberquest_rpg.py
+⚙️ Requirements
+Python 3.8+
+Windows, Linux, or macOS
 
-🌳 Skill Trees & Content
-- 11 skill trees covering cybersecurity domains
-- 32+ security-focused quests
-- Linux, Networking, Web Security, Exploitation, Defense, Governance, and more
+🖥️ UI & Framework
+Built with Python + CustomTkinter
 
-🐍 Python Learning (Built-In)
-- 8 Python quests fully integrated
-- Dedicated Python tab with progress tracking
-- Built-in code sandbox:
-- Write Python code
-- Run it instantly
-- See output in real time
+🚀 Features
+Core Systems
+- 12 ranks with XP progression
+- 15 achievements
+- Persistent save system
+- Reset option
+- Skill Trees & Quests
+- 11 skill trees
+- 32+ cybersecurity quests
+- Covers Linux, Networking, Web Security, Defense, Governance
 
-💡 Learning Support
-- Hints system for every quest
-- “Why This Matters” section showing real-world career value
-- Step-by-step missions with practical commands
+🐍 Python Integration
+- 8 Python quests
+- Dedicated Python tab
+- Built-in sandbox:
+  - Code editor
+  - Run button
+  - Live output
 
-📊 Exams & Progress
-- 5 exams to test your knowledge
-- Track scores and improvement over time
-
-💼 Careers Tab
-
-Explore real cybersecurity career paths:
+🎯 Careers
 - SOC Analyst
 - Pentester
 - Incident Responder
@@ -72,16 +59,28 @@ Each includes:
 - Salary ranges
 - Required skills
 - Recommended certifications
-- Related skill trees
+- Linked skill trees
 
-🧠 Governance & Standards
-- NIST framework concepts
-- CVE awareness and vulnerability context
-- CIA Triad is integrated across quests
+🧠 Learning System (NEW)
+- Quest Format
+- Narrative intro (hacker mindset + story)
+- Objective
+- Accordion-style learning steps (expand/collapse)
+- Quest task (build/do something)
+- Boss fight (quiz per skill tree)
+Quest Chaining
+- Each quest feeds into the next
 
-🌐 Expanded Networking Coverage
+Example:
+Create folder → Add files → Set permissions → Analyze access → Automate → Boss fight
 
-Includes practical learning for:
+🛠️ Tech & Topics
+- Aligned with CompTIA Security+ concepts
+- Includes:
+  - NIST framework basics
+  - CVE awareness
+ -  CIA Triad
+Networking Coverage
 - DHCP
 - ICMP
 - SNMP
@@ -89,81 +88,31 @@ Includes practical learning for:
 - SMB
 - RDP
 
-🔐 Special Questline: OpenClaw Security
+🦞 Special Questline
 
-A full scenario-based chain including:
+OpenClaw Security:
 - Installation
 - Security hardening (CVE-focused)
-- Red team audit of an AI agent system
+- Red team audit
 
-⚙️ Requirements
-- Python 3.8 or higher
-- Works on:
-  - Windows
-  - Linux
-  - MacOS
+Download Python: https://www.python.org/downloads/
 
-No external libraries required (standard library only)
+🧪 Recommended Lab Setup
+- Use a virtual machine for best experience
+- Parrot Security OS recommended
+- VMware / Hyper-V / VirtualBox
 
-🐍 Install Python
+Suggested specs:
 
-Download Python here:
-👉 https://www.python.org/downloads/
+- 4GB RAM
+- 2 CPU cores
+- 40GB storage
 
-Windows Setup
-1. Run installer
-2. Check “Add Python to PATH”
-3. Click Install
-
-Verify:
-python --version
-
-▶️ How to Run
-cd path/to/project
-python cyberquest_academy.py
-Or
-Go to the folder it's in, right-click on the file, and open it with Python
-
-🧪 Recommended Lab Environment
-
-In my opinion, for the best experience, run CyberQuest in a virtual lab.
-
-🐦 Parrot Security OS (Recommended)
-
-Download ISO:
-👉 https://www.parrotsec.org/download/
-
-💻 Hypervisors (Virtual Machines)
-
-VMware
-
-👉 https://www.vmware.com/products/workstation-player.html
-
-Windows Pro Hyper-V
-
-👉 https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/
-
-VirtualBox
-
-👉 https://www.virtualbox.org/wiki/Downloads
-
-🛠️ Basic VM Setup
-- RAM: 4GB+
-- CPU: 2 cores
-- Storage: 40GB+
-
-Install Parrot OS → install Python → run CyberQuest inside the VM.
-
-🎯 Who This Is For
-- Beginners learning cybersecurity
+👨‍💻 Who This Is For
+- Beginners in cybersecurity
 - IT/helpdesk professionals moving into security
-- Anyone who learns better by doing instead of reading
+- Hands-on learners
 
 ⚠️ Disclaimer
-- For educational use only.
-- Only practice on systems you own or have permission to test.
-
-🧭 Future Plans
-- More quests and advanced scenarios
-- Expanded Python challenges
-- Deeper red/blue team simulations
+- Educational use only
+- Only test on systems you own or have permission to use
