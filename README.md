@@ -19,6 +19,7 @@ CyberQuest blends cybersecurity training and Python learning into one interactiv
 Install/Run on Terminal:
 - pip install customtkinter
 - python cyberquest_rpg.py
+
 ⚙️ Requirements
 Python 3.8+
 Windows, Linux, or macOS
