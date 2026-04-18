@@ -15,13 +15,21 @@ CyberQuest blends cybersecurity training and Python learning into one interactiv
 - Practice real commands and scenarios
 - Write and run Python code inside the app
 
+![Quest Screen](Boss.png)
+
+![Quest Screen](Achievements.png)
+
 Install/Run on Terminal:
 - pip install customtkinter
 - python cyberquest_rpg.py
 
+![Quest Screen](Setup.png)
+
 ⚙️ Requirements
 Python 3.8+
 Windows, Linux, or macOS
+
+![Quest Screen](Quest-linux.png)
 
 🖥️ UI & Framework
 Built with Python + CustomTkinter
@@ -37,6 +45,8 @@ Core Systems
 - 32+ cybersecurity quests
 - Covers Linux, Networking, Web Security, Defense, Governance
 
+![Quest Screen](Quests_all_screen.png)
+
 🐍 Python Integration
 - 8 Python quests
 - Dedicated Python tab
@@ -44,6 +54,10 @@ Core Systems
   - Code editor
   - Run button
   - Live output
+
+  ![Quest Screen](PythonQuest.png)
+
+  ![Quest Screen](Python-and-sandbox.png)
 
 🎯 Careers
 - SOC Analyst
@@ -54,6 +68,8 @@ Core Systems
 - Red Team Operator
 - GRC Analyst
 - AppSec Engineer
+
+![Quest Screen](Careers.png)
 
 Each includes:
 - Salary ranges
