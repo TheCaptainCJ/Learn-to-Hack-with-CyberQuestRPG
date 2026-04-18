@@ -5,7 +5,6 @@
 CyberQuest Academy is a Python-based interactive cybersecurity and programming training platform built as a hacker-themed RPG.
 
 - Developed while learning Python to strengthen coding and problem-solving skills
-- Built with AI-assisted learning (Claude) for troubleshooting and concept support
 - Combines cybersecurity training with integrated Python learning
 - Focused on hands-on, real-world skill development through gameplay
 
